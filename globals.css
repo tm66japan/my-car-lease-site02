@@ -1,0 +1,34 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --blue-900: #0a1f44;
+  --blue-800: #102a5a;
+  --blue-700: #1a3a7a;
+  --blue-600: #1e4db7;
+  --blue-500: #2563eb;
+  --blue-400: #3b82f6;
+  --blue-100: #dbeafe;
+  --blue-50:  #eff6ff;
+  --white: #ffffff;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-400: #9ca3af;
+  --gray-600: #4b5563;
+  --gray-800: #1f2937;
+  --accent: #f59e0b;
+  --accent-light: #fef3c7;
+  --font-jp: 'Noto Sans JP', sans-serif;
+  --font-en: 'Montserrat', sans-serif;
+  --radius: 12px;
+  --shadow: 0 4px 24px rgba(10,31,68,0.10);
+  --shadow-lg: 0 8px 40px rgba(10,31,68,0.16);
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-jp); color: var(--gray-800); background: var(--white); line-height: 1.6; }
+
+h1,h2,h3,h4 { line-height: 1.3; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: var(--font-jp); }
+img { max-width: 100%; display: block; }
